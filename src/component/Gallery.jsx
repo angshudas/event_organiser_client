@@ -34,7 +34,7 @@ export default function Gallery() {
 
   return (
     <div id='Gallery' className='flex flex-col justify-center gap-4 lap:justify-around lap:flex-row-reverse lap:items-center py-3 h-screen relative bg-black bg-opacity-70'>
-      <h1 className='text-3xl text-yellow-600 text-center lap:text-7xl'>Gallery</h1>
+      <h1 className='text-3xl text-yellow-600 text-center lap:text-7xl tab:text-5xl'>Gallery</h1>
       <div id='gallery_img'></div>
 
       <div className='relative z-0 my-7  lap:w-1/3 box-border lap:px-3 lap:py-2 lap:border-4 lap:border-slate-500 lap:rounded-md overflow-hidden'>
